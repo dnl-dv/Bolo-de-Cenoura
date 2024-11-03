@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: "Alice", serif;
+    color: #573a37;
+    line-height: 150%;
+}
+
+body {
+    background-image: url(./assets/bg-bolo.png);
+    background-color: #573a37;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    padding: 24px;
+}
+
+.page {
+    background-color:#F0E8C2;
+    width: 800px;
+    border-radius: 24px;
+    margin: 48px auto;
+    padding: 24px;
+    background-position: center;
+}
+
+.page img {
+    border-radius: 24px;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 150%;
+    color: #291b1a;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 150%;
+    color: #291b1a;
+}
+
+h1, h2 {
+    margin-bottom: 4px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #573A37;
+}
+
+.About p + p {
+    margin-top: 12px;
+}
+
+section + section {
+    margin-top: 24px;
+}
+
+ul {
+    padding-left: 24px;
+}
+ul, li {
+    margin-bottom: 8px;
+    list-style-type: disc;
+}
+
+footer {
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+}
